@@ -46,4 +46,4 @@ Google Sheets ──► Agente de IA ──► Template HTML ──► Gmail
 
 ## 👤 Autor
 
-**Paulo Henrique Marques** · [GitHub](https://github.com/pmw17) · paulohenriquemarques29@gmail.com
+**Paulo Henrique Marques** · [GitHub](https://github.com/paulo-marques-dev) · paulohenriquemarques29@gmail.com
