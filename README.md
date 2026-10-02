@@ -38,10 +38,6 @@ Google Sheets ──► Agente de IA ──► Template HTML ──► Gmail
 5. No node do Gmail, defina os destinatários.
 6. Clique em **Execute Workflow** para testar e depois ative o fluxo.
 
-## 📸 Prints
-
-> Adicione aqui um print do workflow no editor do n8n e um do e-mail gerado.
-
 ## 📚 Aprendizados
 
 - Estruturar um fluxo de ponta a ponta com integração entre várias APIs
