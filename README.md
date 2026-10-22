@@ -6,10 +6,12 @@ Em vez de alguém ler a planilha, classificar cada ocorrência e montar o relat�
 
 ## ⚙️ Como funciona
 
-```
-Google Sheets ──► Agente de IA ──► Template HTML ──► Gmail
- (ocorrências)    (classifica no     (relatório       (envio aos
-                   nível da pirâmide) formatado)       responsáveis)
+```mermaid
+flowchart LR
+    A[Google Sheets<br/>ocorrências] --> B[Agente de IA<br/>classifica o nível]
+    B --> C[Code node JS<br/>agrupa e totaliza]
+    C --> D[Template HTML<br/>relatório]
+    D --> E[Gmail<br/>envio aos responsáveis]
 ```
 
 1. **Gatilho**: lê as novas ocorrências registradas na planilha do Google Sheets.
@@ -28,6 +30,8 @@ Google Sheets ──► Agente de IA ──► Template HTML ──► Gmail
 - HTML/CSS
 
 ## ▶️ Como usar
+
+> ⚠️ O arquivo `workflow.json` está sendo preparado para publicação (sem credenciais) e será adicionado em breve. Os passos abaixo valem a partir dessa publicação.
 
 1. Tenha uma instância do n8n rodando (n8n Cloud ou `npx n8n` / Docker).
 2. No n8n, vá em **Workflows → Import from File** e importe o arquivo `workflow.json` deste repositório.
